@@ -4,10 +4,9 @@ h3.textContent = "Photos";
 document.querySelector("body").appendChild(h3);
 
 const h4 = document.createElement("h4");
-h4.textContent = "Contact"
+h4.textContent = "Facts About Me"
 document.querySelector("body").appendChild(h4);
 
-document.body.append(h4)
 
 h3.setAttribute('id', 'photos');
 
@@ -18,8 +17,9 @@ h3.addEventListener("mouseover", function(event) {
         event.target.style.color = ""
     }, 500)
 }, false)
+
 h3.addEventListener("click", function () {
-    alert('Need to link photos page!')
+    document.location.href="file://wsl%24/Ubuntu/home/demij/Development/code/prework/my-personal-website/photos.html"
 });
 
 h4.addEventListener("mouseover", function(event) {
@@ -29,3 +29,7 @@ h4.addEventListener("mouseover", function(event) {
         event.target.style.color = ""
     }, 500)
 }, false)
+
+h4.addEventListener("click", function() {
+    document.location.href="file://wsl%24/Ubuntu/home/demij/Development/code/prework/my-personal-website/page2.html"
+})
