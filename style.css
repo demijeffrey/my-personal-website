@@ -62,3 +62,12 @@ h2 div ul {
 .instagram {
     text-align: center;
 }
+
+.pictures {
+    display: flex;
+    flex: 25%;
+    border: 10px;
+    padding: 100px;
+    width: 20%;
+    height: 20%;
+}
