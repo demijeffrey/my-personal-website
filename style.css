@@ -26,10 +26,10 @@ h1 {
     font-family: Georgia;
 }
 
-h2 {
+.facts {
     text-align: center;
-    color: green;
-    font-size: 1.5em;
+    color: rgb(23, 100, 94);
+    font-size: 40px;
 }
 
 h3 {
@@ -42,12 +42,6 @@ h4 {
     text-align: center;
     color: burlywood;
     font-size: 1.5em;
-}
-
-h2 div ul {
-    color: red;
-    text-align: left;
-    font-size: 1em;
 }
 
 .email {
@@ -70,4 +64,19 @@ h2 div ul {
     padding: 100px;
     width: 20%;
     height: 20%;
+}
+
+#social-media {
+    color: yellow;
+    text-align: center;
+    font-size: 30px;
+    font-family: Georgia;
+}
+
+#text {
+    color: rgba(44, 78, 139, 0.829);
+    text-align: left;
+    font-size: 20px;
+    margin-left: 180px;
+    margin-top: 100px;
 }

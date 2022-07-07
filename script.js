@@ -7,7 +7,6 @@ const h4 = document.createElement("h4");
 h4.textContent = "Facts About Me"
 document.querySelector("body").appendChild(h4);
 
-
 h3.setAttribute('id', 'photos');
 
 h3.addEventListener("mouseover", function(event) {
@@ -31,5 +30,5 @@ h4.addEventListener("mouseover", function(event) {
 }, false)
 
 h4.addEventListener("click", function() {
-    document.location.href="file://wsl%24/Ubuntu/home/demij/Development/code/prework/my-personal-website/page2.html"
+    document.location.href="file://wsl%24/Ubuntu/home/demij/Development/code/prework/my-personal-website/about.html"
 })
